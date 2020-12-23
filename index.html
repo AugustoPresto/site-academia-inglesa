@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
+	<!-- MENU -->
 	<nav>
 		<input type="checkbox" id="check">
 		<label for="check" class="checkbtn">
@@ -22,6 +24,25 @@
 				<li><a href="#" class="menu-btn">Contact</a></li>
 			</ul>
 	</nav>
+
+	<!-- CARROSSEL -->
+	<ul class="slider">
+    	<li>
+    		<input type="radio" id="slide1" name="slide" checked>
+        	<label for="slide1"></label>
+        	<img src="images/1.jpg" />
+      </li>
+    	<li> 
+    		<input type="radio" id="slide2" name="slide" checked>
+        	<label for="slide2"></label>
+        	<img src="images/2.jpg" />
+    	</li>
+    	<li>
+    	    <input type="radio" id="slide3" name="slide" checked>
+        	<label for="slide3"></label>
+        	<img src="images/3.jpg" />
+        </li>
+	</ul>
 
 	<script type="text/javascript">
 		let navUl = document.querySelector("#nav-ul");
