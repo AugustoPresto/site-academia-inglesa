@@ -173,6 +173,7 @@ a.active, a:hover {
   width: 800px;
   margin: auto;
   background-color: #e8e8e8;
+  transition: 0.2s;
 }
 
 .ensino h2 {
@@ -183,9 +184,10 @@ a.active, a:hover {
 
 .cards {
 	display: grid;
-	grid-template-columns: 33.3% 33.3% 33.3%;
+	grid-template-columns: 33.33% 33.34% 33.33%;
 	grid-template-rows: 50% 50%;
 	justify-items: center;
+	transition: .2s;
 }
 
 .card-white {
@@ -240,6 +242,7 @@ a.active, a:hover {
 	/*ENSINO*/
 	.ensino {
   		width: 700px;
+  		transition: 0.2s;
   	}
 }
 
@@ -283,6 +286,25 @@ a.active, a:hover {
 	/*ENSINO*/
 	.ensino {
   		width: 400px;
+  	}
+
+  	.cards {
+  		grid-template-columns: 50% 50%;
+		grid-template-rows: 33.33% 33.34% 33.33%;
+		transition: .2s;
+  	}
+
+  	.card-white {
+  		width: 190px;
+  	}
+
+  	.card-white img {
+  		width: 170px;
+  		height: 170px;
+  	}
+
+  	.card-white h4 {
+  		font-size: 0.9rem;
   	}
 
 }
