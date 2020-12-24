@@ -126,18 +126,78 @@ a.active, a:hover {
     z-index: 10;
 }
 
+/*BARRA MATRICULE-SE*/
+.faleingles {
+	grid-area: left-top;
+	font-size: 2.5rem;
+}
+
+.aulaexperimental {
+	grid-area: left-bottom;
+	font-size: 1.5rem;
+}
+
+.btnmatriculese {
+	grid-area: right;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-weight: bolder;
+	background-color: #D4312D;
+	transition: 0.5s;
+	font-size: 3rem;
+}
+
+.btnmatriculese:hover {
+	text-decoration: none;
+	color: #D4312D;
+	opacity: 0.8;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 25% 25% 50%;
+	grid-template-areas: 
+		"left-top right"
+		"left-top right"
+		"left-bottom right";
+	margin-top: 5vh;
+	align-items: center;
+	justify-items: center;
+}
+
+
+
 @media (max-width: 952px){
+	/*MENU*/
 	label.logo {
 		font-size: 30px;
-		
+	}
+
+	#nav-ul {
+		z-index: 20;
 	}
 	
 	nav ul li a {
 		font-size: 16px;
 	}
+
+	/*BARRA MATRICULE-SE*/
+	.btnmatriculese {
+		font-size: 1.5rem;
+	}
+	.faleingles {
+		font-size: 1.5rem;
+	}
+
+	.aulaexperimental {
+		font-size: 1rem;
+	}
 }
 
 @media (max-width: 858px) {
+	/*MENU*/
 	.checkbtn{
 		display: block;
 	}
@@ -151,6 +211,7 @@ a.active, a:hover {
 		left: 100%;
 		text-align: center;
 		transition: all .5s;
+		z-index: 20;
 	}
 	
 	nav ul li {
