@@ -144,7 +144,7 @@ a.active, a:hover {
 	padding: 10px 20px;
 	font-weight: bolder;
 	background-color: #D4312D;
-	transition: 0.5s;
+	transition: 0.2s;
 	font-size: 3rem;
 }
 
@@ -163,11 +163,53 @@ a.active, a:hover {
 		"left-top right"
 		"left-bottom right";
 	margin-top: 5vh;
+	margin-bottom: 5vh;
 	align-items: center;
 	justify-items: center;
 }
 
+/*ENSINO*/
+.ensino {
+  width: 800px;
+  margin: auto;
+  background-color: #e8e8e8;
+}
 
+.ensino h2 {
+	text-align: center;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	grid-template-rows: 50% 50%;
+	justify-items: center;
+}
+
+.card-white {
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 20px;
+	margin: 8px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+	margin-left: -10px;
+}
+
+.card-white h4 {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
 
 @media (max-width: 952px){
 	/*MENU*/
@@ -188,15 +230,20 @@ a.active, a:hover {
 		font-size: 1.5rem;
 	}
 	.faleingles {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 
 	.aulaexperimental {
 		font-size: 1rem;
 	}
+
+	/*ENSINO*/
+	.ensino {
+  		width: 700px;
+  	}
 }
 
-@media (max-width: 858px) {
+@media (max-width: 800px) {
 	/*MENU*/
 	.checkbtn{
 		display: block;
@@ -232,4 +279,10 @@ a.active, a:hover {
 	#check:checked ~ ul {
 		left: 0;
 	}
+
+	/*ENSINO*/
+	.ensino {
+  		width: 400px;
+  	}
+
 }
