@@ -151,6 +151,7 @@ a.active, a:hover {
 	text-decoration: none;
 	color: #D4312D;
 	opacity: 0.8;
+	background-color: white;
 }
 
 .container {
@@ -239,8 +240,58 @@ a.active, a:hover {
 
 .contato h2 {
 	text-align: center;
-	padding-top: 1vh;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
 	font-size: 2rem;
+}
+
+.flexcaixa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.infos-contato {
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 2rem;
+}
+
+.infos-contato p {
+	padding: 5px;
+	font-size: 1.2rem;
+}
+
+.infos-contato form input {
+	padding: 3px 6px;
+	margin: 4px 5px; 
+	width: 190px;
+}
+
+textarea {
+	margin: 4px 5px;
+	width: 90%;
+	height: 20vh;
+	padding: 3px 6px;
+	resize: none;
+}
+
+.enviar-mensagem {
+	width: 90%;
+	height: 5vh;
+	margin: 0 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+}
+
+.enviar-mensagem:hover {
+	cursor: pointer;
+}
+
+#direcoes p {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #mapa {
@@ -351,4 +402,27 @@ a.active, a:hover {
 		font-size: 18px;
 	}
 
+	/*FOOTER*/
+	.infos-contato p {
+		font-size: 1rem;
+	}	
+
+  	.infos-contato {
+  		padding: 1rem;
+  	}
+
+	#mapa {
+		height: 250px;
+		width: 250px;
+	}
+
+}
+
+@media (max-width: 600px) {
+	/*FOOTER*/
+
+	#mapa {
+		height: 200px;
+		width: 200px;
+	}
 }
