@@ -48,7 +48,6 @@ nav ul li a {
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 3px; 
-	text-transform: lowercase;
 }
 
 a.active, a:hover {
@@ -233,6 +232,22 @@ a.active, a:hover {
   font-size: 24px;
 }
 
+/*FOOTER*/
+.contato {
+	background-color: #e8e8e8;
+}
+
+.contato h2 {
+	text-align: center;
+	padding-top: 1vh;
+	font-size: 2rem;
+}
+
+#mapa {
+    height:400px;
+    width:400px;
+}
+
 @media (max-width: 952px){
 	/*MENU*/
 	label.logo {
@@ -326,5 +341,14 @@ a.active, a:hover {
   	.card-white h4 {
   		font-size: 0.9rem;
   	}
+
+  	/*INTERCÂMBIO*/
+	.intercambio h2 {
+		font-size: 30px;
+	}
+
+	.intercambio p {
+		font-size: 18px;
+	}
 
 }
