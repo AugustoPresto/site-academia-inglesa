@@ -171,7 +171,7 @@ a.active, a:hover {
 /*ENSINO*/
 .ensino {
   width: 800px;
-  margin: auto;
+  margin: auto auto 1vh auto;
   background-color: #e8e8e8;
   transition: 0.2s;
 }
@@ -211,6 +211,26 @@ a.active, a:hover {
 .card-white h4 {
 	margin-top: 5px;
 	margin-bottom: 0;
+}
+
+/*INTERCÂMBIO*/
+.intercambio {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/intercambio1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.intercambio h2 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.intercambio p {
+  color: white;
+  font-size: 24px;
 }
 
 @media (max-width: 952px){
