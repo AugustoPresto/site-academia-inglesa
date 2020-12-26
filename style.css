@@ -255,6 +255,9 @@ a.active, a:hover {
 	border: 1px solid grey;
 	border-radius: 5px;
 	padding: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
 }
 
 .infos-contato p {
@@ -268,10 +271,15 @@ a.active, a:hover {
 	width: 190px;
 }
 
+.infos-contato form label {
+	margin-left: 10px;
+	font-size: 0.9rem;
+}
+
 textarea {
 	margin: 4px 5px;
 	width: 90%;
-	height: 20vh;
+	height: 18vh;
 	padding: 3px 6px;
 	resize: none;
 }
@@ -289,14 +297,36 @@ textarea {
 	cursor: pointer;
 }
 
+#siga {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.redes-sociais {
+	text-align: center;
+}
+
+.redes-sociais li {
+	display: inline;
+	font-size: 2rem;
+	letter-spacing: 1rem;
+}
+
+.redes-sociais a:hover {
+	color: black;
+	background-color: #E8E8E8;
+}
+
 #direcoes p {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	padding-left: 1rem;
 }
 
 #mapa {
     height:400px;
     width:400px;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
 }
 
 @media (max-width: 952px){
@@ -411,6 +441,10 @@ textarea {
   		padding: 1rem;
   	}
 
+  	textarea {
+		height: 8vh;
+	}
+
 	#mapa {
 		height: 250px;
 		width: 250px;
@@ -420,9 +454,20 @@ textarea {
 
 @media (max-width: 600px) {
 	/*FOOTER*/
+	#siga {
+		font-size: 0.9rem;
+	}
+
+	.redes-sociais li {
+		font-size: 1.5rem;
+	}
+
+	#direcoes p {
+		font-size: 0.9rem;
+	}
 
 	#mapa {
-		height: 200px;
+		height: 300px;
 		width: 200px;
 	}
 }
