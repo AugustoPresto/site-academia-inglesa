@@ -70,70 +70,17 @@ a.active, a:hover {
 }
 
 /*CARROSSEL*/
-.slider {
-    display: block;
-    height: auto;
-    width: 100%;
-    margin: auto;
-    position: relative;
-}
 
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: auto;
-    max-width: 100%;
-    vertical-align: top;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider input {
-    display: none;
-}
-
-.slider label {
-    background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
 
 /*BARRA MATRICULE-SE*/
 .faleingles {
 	grid-area: left-top;
-	font-size: 2.5rem;
+	font-size: 2.1rem;
 }
 
 .aulaexperimental {
 	grid-area: left-bottom;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 
 .btnmatriculese {
@@ -144,7 +91,7 @@ a.active, a:hover {
 	font-weight: bolder;
 	background-color: #D4312D;
 	transition: 0.2s;
-	font-size: 3rem;
+	font-size: 2.6rem;
 }
 
 .btnmatriculese:hover {
@@ -209,8 +156,9 @@ a.active, a:hover {
 }
 
 .card-white h4 {
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 0;
+	font-size: 1.1rem;
 }
 
 /*INTERCÂMBIO*/
@@ -254,20 +202,21 @@ a.active, a:hover {
 .infos-contato {
 	border: 1px solid grey;
 	border-radius: 5px;
-	padding: 2rem;
+	padding: 1rem 3rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	margin-left: 1rem;
 }
 
 .infos-contato p {
-	padding: 5px;
+	padding: 1px;
 	font-size: 1.2rem;
+	margin: 1px 0;
 }
 
 .infos-contato form input {
-	padding: 3px 6px;
-	margin: 4px 5px; 
+	padding: 1px 6px;
+	margin: 1px 2px; 
 	width: 190px;
 }
 
@@ -277,7 +226,7 @@ a.active, a:hover {
 }
 
 textarea {
-	margin: 4px 5px;
+	margin: 1px 2px;
 	width: 90%;
 	height: 18vh;
 	padding: 3px 6px;
@@ -287,7 +236,7 @@ textarea {
 .enviar-mensagem {
 	width: 90%;
 	height: 5vh;
-	margin: 0 5px;
+	margin: 0 2px;
 	border: none;
 	border-radius: 5px;
 	background-color: #4CAF50;
@@ -300,6 +249,7 @@ textarea {
 #siga {
 	text-align: center;
 	margin-top: 1rem;
+	margin-right: 15px;
 }
 
 .redes-sociais {
@@ -386,7 +336,7 @@ textarea {
 		line-height: 30px;
 	}
 	
-	nav ul li a{
+	nav ul li a {
 		font-size: 20px;
 	}
 
@@ -422,6 +372,7 @@ textarea {
   	.card-white h4 {
   		font-size: 0.9rem;
   	}
+
 
   	/*INTERCÂMBIO*/
 	.intercambio h2 {
