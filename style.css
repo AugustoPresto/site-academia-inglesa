@@ -48,6 +48,7 @@ nav ul li a {
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 3px; 
+	text-decoration: none !important;
 }
 
 a.active, a:hover {
@@ -216,17 +217,19 @@ a.active, a:hover {
 
 .infos-contato form input {
 	padding: 1px 6px;
-	margin: 1px 2px; 
+	margin: 0 2px 1px 2px; 
 	width: 190px;
 }
 
 .infos-contato form label {
+	margin-top: 5px;
+	margin-bottom: -4px;
 	margin-left: 10px;
 	font-size: 0.9rem;
 }
 
 textarea {
-	margin: 1px 2px;
+	margin: 0 2px 1px 2px;
 	width: 90%;
 	height: 18vh;
 	padding: 3px 6px;
@@ -249,7 +252,7 @@ textarea {
 #siga {
 	text-align: center;
 	margin-top: 1rem;
-	margin-right: 15px;
+	margin-right: 25px;
 }
 
 .redes-sociais {
