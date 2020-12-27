@@ -20,7 +20,7 @@ body {
 
 /*MENU*/
 nav {
-	background: #0082e6;
+	background: #bcbcbc;
 	height: 80px;
 	width: 100%;
 }
@@ -54,6 +54,7 @@ nav ul li a {
 a.active, a:hover {
 	background: #1b9bff;
 	transition: .5s;
+	color: white;
 }
 
 .checkbtn {
@@ -71,7 +72,17 @@ a.active, a:hover {
 }
 
 /*CARROSSEL*/
+/*#carouselExampleControls {
+	top: -15px !important;
+}*/
 
+.carousel-control-prev:hover {
+	background-color: transparent;
+}
+
+.carousel-control-next:hover {
+	background-color: transparent;
+}
 
 /*BARRA MATRICULE-SE*/
 .faleingles {
