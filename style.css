@@ -2,7 +2,7 @@
     font-family: 'Constantia';
     src: url('fonts/constantia.ttf');
     font-family: 'Myriad Pro'
-    src: url('fonts/MYRIADPRO-REGULAR.OTF');
+    src: url('fonts/myriadpro-regular.otf');
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-	font-family: Myriad Pro;
+	font-family: 'Myriad Pro', sans-serif;
 	color: black;
 }
 
@@ -27,6 +27,7 @@ nav {
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	overflow: hidden;
 }
 
 label.logo > img {
@@ -136,9 +137,9 @@ a.active, a:hover {
 
 /*ENSINO*/
 .ensino {
-  width: 800px;
+  width: 900px;
   margin: auto auto 1vh auto;
-  background-color: #e8e8e8;
+  background-color: #1B9BFF;
   transition: 0.2s;
 }
 
@@ -152,6 +153,7 @@ a.active, a:hover {
 	display: grid;
 	grid-template-columns: 33.33% 33.34% 33.33%;
 	grid-template-rows: 50% 50%;
+	padding-bottom: 2.5vh;
 	justify-items: center;
 	transition: .2s;
 }
@@ -181,7 +183,6 @@ a.active, a:hover {
 }
 
 /*HISTÓRIA*/
-
 .historia {
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
@@ -201,12 +202,12 @@ a.active, a:hover {
 	"paragrafo1 paragrafo2";
 	grid-column-gap: 3vw;
 	justify-content: center;
-	align-items: center;
+	align-items: top;
 	margin: 0 10vw;
 }
 
 .historia-texto p {
-	text-align: center;
+	text-align: justify;
 }
 
 /*INTERCÂMBIO*/
@@ -372,7 +373,7 @@ textarea {
 
 @media (max-width: 800px) {
 	/*MENU*/
-	.checkbtn{
+	.checkbtn {
 		display: block;
 		color: black;
 	}
