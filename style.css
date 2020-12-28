@@ -364,19 +364,51 @@ textarea {
   		transition: 0.2s;
   	}
 
+  	.cards {
+  		margin-left: 8px;
+  	}
+
   	/*HISTÓRIA*/
+  	.historia {
+  		margin-left: -12px;
+  	}
+
+  	.historia-texto {
+  	grid-column-gap: 3vw;
+	align-items: top;
+	margin: 0 10vw;	
+  	}
+
   	.historia-texto p {
 	font-size: 0.9rem;
 	}
+
+	/*FOOTER*/
+	.flexcaixa {
+		margin-left: -15px;
+	}
+
+	.infos-contato form label {
+		margin-left: -6px;
+	}
+
+	#siga {
+		margin-left: 25px;
+	}
+
+	.redes-sociais li {
+		margin-left: 18px;
+	}
+
 }
 
 @media (max-width: 700px) {
 	/*MENU*/
 	label.logo > img {
-	width: 120px;
-	height: 33px;
-	margin-top: 20px;
-	margin-left: 35px;
+		width: 120px;
+		height: 33px;
+		margin-top: 20px;
+		margin-left: 35px;
 	}
 
 	.checkbtn {
@@ -459,10 +491,6 @@ textarea {
 		margin-bottom: 1rem;
 	}
 
-	.historia-texto {
-		margin: 0 20px;
-	}
-
 	.historia-texto p {
 		text-align: center;
 		font-size: 0.8rem;
@@ -490,6 +518,7 @@ textarea {
 
   	.infos-contato {
   		padding: 1rem;
+  		padding-bottom: 0.05rem;
   	}
 
   	textarea {
@@ -497,7 +526,8 @@ textarea {
 	}
 
 	#direcoes {
-		justify-items: center;
+		text-align: center;
+		margin: 0 40px;
 	}
 
 	#mapa {
@@ -519,5 +549,37 @@ textarea {
 
 	#direcoes p {
 		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 568px) {
+	/*BARRA MATRICULE-SE*/
+	.container {
+		margin: 4vh 0;
+	}
+
+	.btnmatriculese {
+		font-size: 0.9rem;
+	}
+
+	.faleingles {
+		font-size: 0.8rem;
+	}
+
+	.aulaexperimental {
+		font-size: 0.6rem;
+	}
+
+	/*ENSINO*/
+	.card-white {
+		width: 150px;
+		height: 230px;
+	}
+
+	.card-white img {
+		width: 135px;
+		height: 135px;
+		margin-left: -12.5px;
+		margin-top: -5px;
 	}
 }
