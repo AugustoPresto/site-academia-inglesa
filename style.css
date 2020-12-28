@@ -201,9 +201,8 @@ a.active, a:hover {
 	grid-template-areas: 
 	"paragrafo1 paragrafo2";
 	grid-column-gap: 3vw;
-	justify-content: center;
 	align-items: top;
-	margin: 0 10vw;
+	margin: 0 21vw;
 }
 
 .historia-texto p {
@@ -371,8 +370,15 @@ textarea {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 	/*MENU*/
+	label.logo > img {
+	width: 120px;
+	height: 33px;
+	margin-top: 20px;
+	margin-left: 35px;
+	}
+
 	.checkbtn {
 		display: block;
 		color: black;
@@ -410,9 +416,21 @@ textarea {
 		left: 0;
 	}
 
+	/*BARRA MATRICULE-SE*/
+	.btnmatriculese {
+		font-size: 1.1rem;
+	}
+	.faleingles {
+		font-size: 1rem;
+	}
+
+	.aulaexperimental {
+		font-size: 0.7rem;
+	}
+
 	/*ENSINO*/
 	.ensino {
-  		width: 400px;
+  		width: 100%;
   	}
 
   	.cards {
@@ -422,22 +440,32 @@ textarea {
   	}
 
   	.card-white {
-  		width: 190px;
+  		width: 170px;
+  		margin-left: 0;
   	}
 
   	.card-white img {
-  		width: 170px;
-  		height: 170px;
+  		width: 150px;
+  		height: 150px;
   	}
 
   	.card-white h4 {
-  		font-size: 0.9rem;
+  		font-size: 0.8rem;
   	}
 
-  	/*HISTORIA:*/
+  	/*HISTORIA*/
   	.historia {
 		margin-top: 1rem;
 		margin-bottom: 1rem;
+	}
+
+	.historia-texto {
+		margin: 0 20px;
+	}
+
+	.historia-texto p {
+		text-align: center;
+		font-size: 0.8rem;
 	}
 
 
@@ -451,6 +479,11 @@ textarea {
 	}
 
 	/*FOOTER*/
+	.flexcaixa {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
 	.infos-contato p {
 		font-size: 1rem;
 	}	
@@ -461,6 +494,10 @@ textarea {
 
   	textarea {
 		height: 8vh;
+	}
+
+	#direcoes {
+		justify-items: center;
 	}
 
 	#mapa {
@@ -482,10 +519,5 @@ textarea {
 
 	#direcoes p {
 		font-size: 0.9rem;
-	}
-
-	#mapa {
-		height: 300px;
-		width: 200px;
 	}
 }
