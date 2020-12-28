@@ -20,9 +20,13 @@ body {
 
 /*MENU*/
 nav {
-	background: #bcbcbc;
+	background: white;
 	height: 80px;
 	width: 100%;
+	box-shadow: 0 0 0.3rem black;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
 label.logo > img {
@@ -44,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: white;
+	color: black;
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 3px; 
@@ -88,11 +92,14 @@ a.active, a:hover {
 .faleingles {
 	grid-area: left-top;
 	font-size: 2.1rem;
+	margin-bottom: -12px;
 }
 
 .aulaexperimental {
 	grid-area: left-bottom;
 	font-size: 1.4rem;
+	align-items: center;
+	margin-bottom: -1px;
 }
 
 .btnmatriculese {
@@ -174,6 +181,12 @@ a.active, a:hover {
 }
 
 /*HISTÓRIA*/
+
+.historia {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
 .historia h2 {
 	text-align: center;
 	padding: 1rem;
@@ -219,6 +232,7 @@ a.active, a:hover {
 /*FOOTER*/
 .contato {
 	background-color: #e8e8e8;
+	padding-top: 1.5rem;
 }
 
 .contato h2 {
@@ -314,6 +328,8 @@ textarea {
     margin-left: 1rem;
     padding-bottom: 1rem;
     align-items: center;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
 
 @media (max-width: 952px){
@@ -358,6 +374,7 @@ textarea {
 	/*MENU*/
 	.checkbtn{
 		display: block;
+		color: black;
 	}
 	
 	#nav-ul {
@@ -380,6 +397,7 @@ textarea {
 	
 	nav ul li a {
 		font-size: 20px;
+		color: white;
 	}
 
 	a:hover, a.active {
@@ -414,6 +432,12 @@ textarea {
   	.card-white h4 {
   		font-size: 0.9rem;
   	}
+
+  	/*HISTORIA:*/
+  	.historia {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
 
 
   	/*INTERCÂMBIO*/
