@@ -13,12 +13,19 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Myriad Pro', sans-serif;
 	color: black;
 }
 
 /*MENU*/
+nav span {
+	display: none;
+}
 nav {
 	background: white;
 	height: 80px;
