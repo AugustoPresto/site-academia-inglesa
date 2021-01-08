@@ -646,16 +646,21 @@ textarea {
 
 @media (max-width: 700px) {
 	/*MENU*/
+	nav {
+		height: 60px;
+	}
+
 	label.logo > img {
 		width: 120px;
 		height: 33px;
-		margin-top: 20px;
+		margin-top: 13px;
 		margin-left: 35px;
 	}
 
 	.checkbtn {
 		display: block;
 		color: black;
+		margin-top: -4px;
 	}
 	
 	#nav-ul {
@@ -665,6 +670,7 @@ textarea {
 		background: #2c3e50;
 		top: 80px;
 		left: 100%;
+		margin-top: -20px;
 		text-align: center;
 		transition: all .5s;
 		z-index: 20;
@@ -816,7 +822,7 @@ textarea {
 @media (max-width: 600px) {
 	/*INTERCÂMBIO*/
 	.intercambio {
-		height: 62vh;
+		height: 70vh;
 	}
 
 	/*FOOTER*/
@@ -850,6 +856,7 @@ textarea {
 
 	.aulaexperimental {
 		font-size: 0.6rem;
+		padding: 0;
 	}
 
 	/*ENSINO*/
@@ -867,12 +874,8 @@ textarea {
 
 	/*INTERCAMBIO*/
 	.intercambio {
-		height: 110vh;
+		height: 130vh;
 	}
-
-/*	.gallery {
-		margin-top: 2.5vh;
-	}*/
 
 	#mapa {
 		height: 250px;
