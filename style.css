@@ -247,13 +247,13 @@ a.active, a:hover {
 
 /*INTERCÂMBIO*/
 .intercambio {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/intercambio1.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/intercambio1.jpg');
   background-size: cover;
   background-position: center;
   padding: 0;
   text-align: center;
   width: 100%;
-  height: 28rm;
+  height: 82vh;
   padding-top: 1.5rem;
 }
 
@@ -261,11 +261,24 @@ a.active, a:hover {
   color: white;
   font-size: 45px;
   margin: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
-.intercambio p {
+.intercambio h4 {
   color: white;
   font-size: 24px;
+  margin-left: 15px;
+  margin-right: 15px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.intercambio-p {
+	color: white;
+	font-weight: lighter;
 }
 
 .gallery {
@@ -527,6 +540,12 @@ textarea {
     border: 1px solid grey;
 }
 
+@media (max-width: 1366px){
+	.intercambio {
+		height: 45vh;
+	}
+}
+
 @media (max-width: 952px){
 	/*MENU*/
 	label.logo {
@@ -578,6 +597,23 @@ textarea {
 	font-size: 0.9rem;
 	}
 
+	/*INTERCAMBIO*/
+	.intercambio {
+		height: 45vh;
+	}
+
+	.intercambio h2 {
+		font-size: 1.5rem;
+	}
+
+	.intercambio h4 {
+		font-size: 1rem;
+	}
+
+	.intercambio-p {
+		font-size: 0.9rem;
+	}
+
 	/*FOOTER*/
 	.flexcaixa {
 		margin-left: -15px;
@@ -599,8 +635,13 @@ textarea {
 		width: 300px;
 		height: 350px;
 	}
+}
 
-
+@media(max-width: 812px) {
+  	/*INTERCÂMBIO*/
+	.intercambio {
+		height: 45vh;
+	}
 }
 
 @media (max-width: 700px) {
@@ -705,14 +746,22 @@ textarea {
 		font-size: 0.8rem;
 	}
 
-
   	/*INTERCÂMBIO*/
+	.intercambio {
+		height: 42vh;
+	}
+
 	.intercambio h2 {
 		font-size: 30px;
 	}
 
-	.intercambio p {
-		font-size: 18px;
+	.intercambio h4 {
+		font-size: 15px;
+	}
+
+	.intercambio-p {
+		text-align: center;
+		font-size: 0.6rem;
 	}
 
 	/*PARCEIROS*/
@@ -727,7 +776,9 @@ textarea {
 	}
 
 	.paragrafo-parceiros {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+		margin-left: 28px;
+		margin-right: 28px;
 	}
 
 	/*FOOTER*/
@@ -763,6 +814,11 @@ textarea {
 }
 
 @media (max-width: 600px) {
+	/*INTERCÂMBIO*/
+	.intercambio {
+		height: 62vh;
+	}
+
 	/*FOOTER*/
 	#siga {
 		font-size: 0.9rem;
@@ -807,6 +863,21 @@ textarea {
 		height: 135px;
 		margin-left: -12.5px;
 		margin-top: -5px;
+	}
+
+	/*INTERCAMBIO*/
+	.intercambio {
+		height: 85vh;
+	}
+
+	.gallery {
+		margin-top: 2.5vh;
+	}
+
+	#mapa {
+		height: 250px;
+		width: 250px;
+		margin-left: 30px;
 	}
 
 }
