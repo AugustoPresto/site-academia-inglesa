@@ -867,12 +867,12 @@ textarea {
 
 	/*INTERCAMBIO*/
 	.intercambio {
-		height: 85vh;
+		height: 110vh;
 	}
 
-	.gallery {
+/*	.gallery {
 		margin-top: 2.5vh;
-	}
+	}*/
 
 	#mapa {
 		height: 250px;
