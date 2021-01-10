@@ -362,8 +362,9 @@ a.active, a:hover {
 
 .column-flex {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 }
 
 /* Position the "next button" to the right */
@@ -380,7 +381,8 @@ a.active, a:hover {
 
 img.demo {
   opacity: 0.6;
-  width: 40%;
+  width: 35px;
+  margin: 1px;
 }
 
 .active,
