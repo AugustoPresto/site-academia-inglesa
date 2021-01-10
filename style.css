@@ -582,9 +582,8 @@ textarea {
 	}
 
 	/*INTERCAMBIO*/
-
 	.intercambio h2 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 	.intercambio h4 {
@@ -593,6 +592,19 @@ textarea {
 
 	.intercambio-p {
 		font-size: 0.9rem;
+	}
+
+	.intercambio-p {
+		font-size: 1.5rem;
+	}
+
+	.modal-content {
+		width: 80%;
+	}
+
+	.prev,
+	.next {
+		top: 30%;
 	}
 
 	/*FOOTER*/
@@ -653,7 +665,7 @@ textarea {
 	nav ul li {
 		display: block;
 		margin: 50px 0;
-		line-height: 30px;
+		line-height: 20px;
 	}
 	
 	nav ul li a {
@@ -727,7 +739,6 @@ textarea {
 	}
 
   	/*INTERCÂMBIO*/
-
 	.intercambio h2 {
 		font-size: 30px;
 	}
@@ -822,6 +833,24 @@ textarea {
 
 	.aulaexperimental {
 		font-size: 0.5rem;
+	}
+
+	/*INTERCÂMBIO*/
+	.intercambio h3 {
+		font-size: 26px;
+	}
+
+	.modal-content {
+		width: 80%;
+	}
+	
+	.close {
+		right: 12px;
+	}
+
+	.prev,
+	.next {
+		top: 20%;
 	}
 
 	/*ENSINO*/
