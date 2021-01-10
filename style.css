@@ -347,11 +347,12 @@ a.active, a:hover {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
+  background-color: rgba(255,255,255,0.4);
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
@@ -392,10 +393,6 @@ img.demo {
 
 img.hover-shadow {
   transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*PARCEIROS*/
@@ -820,11 +817,14 @@ textarea {
 @media (max-width: 568px) {
 	/*BARRA MATRICULE-SE*/
 	.container {
-		margin: 4vh 0;
+		margin: 3vh 0;
+		justify-content: center;
+		grid-gap: 1px;
 	}
 
 	.btnmatriculese {
 		font-size: 0.9rem;
+		padding: 5px 10px;
 	}
 
 	.faleingles {
