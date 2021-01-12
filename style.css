@@ -418,12 +418,12 @@ img.hover-shadow {
 #badge-left {
 	position: absolute;
 	top: 20px;
-	right: 320px;
+	right: 315px;
 }
 
 #badge-right {
 	position: absolute;
-	top: 140px;
+	top: 130px;
 	left: 320px;
 }
 
@@ -484,7 +484,7 @@ img.hover-shadow {
 	color: white;
 	text-align: center;
 	background-color: #1B9BFF;
-	border-radius: 10px;
+	border-radius: 4px;
 	width: 30px;
 	height: 30px;
 	margin: 2px;
@@ -749,7 +749,7 @@ textarea {
 	.checkbtn {
 		display: block;
 		color: black;
-		margin-top: -4px;
+		margin-top: -6px;
 	}
 	
 	#nav-ul {
@@ -855,6 +855,22 @@ textarea {
 		font-size: 0.6rem;
 	}
 
+	#person-review {
+		font-size: 0.7rem;
+		height: 240px;
+		width: 400px;
+	}
+
+	#badge-left {
+		top: 20;
+		right: 210px;
+	}
+
+	#badge-right {
+		top: 170px;
+		left: 210px;
+	}
+
 	/*PARCEIROS*/
 	#logo-pedroii {
 		height: 120px;
@@ -944,6 +960,30 @@ textarea {
 	/*INTERCÂMBIO*/
 	.intercambio h3 {
 		font-size: 26px;
+	}
+
+	#person-review {
+		font-size: 0.6rem;
+		width: 240px;
+		height: 240px;
+		line-height: 1rem;
+	}
+
+	#badge-left {
+		top: 20;
+		right: 120px;
+	}
+
+	#badge-right {
+		top: 170px;
+		left: 120px;
+	}
+
+	.badge i {
+		font-size: 0.9rem;
+		width: 1.8rem;
+		height: 1.8rem;
+		padding: .8rem;
 	}
 
 	.modal-content {
