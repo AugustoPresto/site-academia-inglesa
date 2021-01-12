@@ -297,6 +297,7 @@ a.active, a:hover {
 	font-weight: lighter;
 }
 
+/*galeria*/
 .modal {
   display: none;
   position: fixed;
@@ -394,6 +395,107 @@ img.demo {
 img.hover-shadow {
   transition: 0.3s;
 }
+
+/*depoimentos*/
+.container-depoimentos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider	{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 9.38rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.badge {
+	line-height: 4rem;
+	width: 1.3rem;
+	padding: .6rem;
+	background: #1B9BFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.badge i {
+	color: white;
+	font-size: 1.3rem;
+}
+
+.name-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#person-name {
+	margin-bottom: -0.8rem;
+	letter-spacing: 2px;
+}
+
+#person-review {
+	height: 200px;
+	width: 600px;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	line-height: 1.4rem;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+}
+
+.arrows {
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.arrow {
+	background-color: transparent;
+	border: none;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.arrow i {
+	color: white;
+	text-align: center;
+	background-color: #1B9BFF;
+	border-radius: 10px;
+	width: 30px;
+	height: 30px;
+	margin: 2px;
+}
+
+#arrowleft {
+	display: grid;
+    place-items: center;
+}
+
+#arrowright {
+	display: grid;
+    place-items: center;
+}
+
 
 /*PARCEIROS*/
 .logos-parceiros {
