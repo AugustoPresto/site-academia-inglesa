@@ -141,7 +141,7 @@ a.active, a:hover {
 
 /*ENSINO*/
 .ensino {
-  width: 900px;
+  width: 1000px;
   margin: auto auto 1vh auto;
   background-color: #1B9BFF;
   transition: 0.2s;
@@ -157,8 +157,8 @@ a.active, a:hover {
 
 .cards {
 	display: grid;
-	grid-template-columns: 33.33% 33.34% 33.33%;
-	grid-template-rows: 50% 50%;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: repeat(2, 33.33%), 33.34%;
 	padding-bottom: 2.5vh;
 	justify-items: center;
 	transition: .2s;
@@ -669,6 +669,34 @@ textarea {
   		margin-left: 8px;
   	}
 
+  	.card-white {
+  		width: 150px;
+  		height: 250px;
+  		margin-left: 2px;
+  		padding-top: 10px;
+  	}
+
+  	.card-white h4 {
+	font-size: 1rem;
+	}
+
+  	.card-white img {
+  		width: 130px;
+  		height: 130px;
+  	}
+
+  	.ensino-texto div {
+		width: 410px;
+	}
+
+  	.ensino-texto div h4 {
+		font-size: 1rem;
+	}
+
+	.ensino-texto div p {
+		font-size: 0.9rem;
+	}
+
   	/*HISTÓRIA*/
   	.historia {
   		margin-left: -12px;
@@ -804,7 +832,7 @@ textarea {
 
   	.cards {
   		grid-template-columns: 50% 50%;
-		grid-template-rows: 33.33% 33.34% 33.33%;
+		grid-template-rows: repeat(4, 25%);
 		transition: .2s;
   	}
 
@@ -820,6 +848,10 @@ textarea {
 
   	.card-white h4 {
   		font-size: 0.8rem;
+  	}
+
+  	.ensino-div {
+  		width: 420px;
   	}
 
 	.ensino-texto div h4 {
