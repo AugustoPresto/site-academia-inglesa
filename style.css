@@ -543,6 +543,11 @@ img.hover-shadow {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: 0 auto;
+}
+
+.flexcaixa p {
+	margin: 0 0 15px 0;
 }
 
 .infos-contato {
@@ -739,10 +744,6 @@ textarea {
 	}
 
 	/*FOOTER*/
-	.flexcaixa {
-		margin-left: -15px;
-	}
-
 	.infos-contato form label {
 		margin-left: -6px;
 	}
@@ -947,7 +948,6 @@ textarea {
 	#mapa {
 		height: 250px;
 		width: 250px;
-		margin-right: 20px;
 	}
 
 }
@@ -987,6 +987,19 @@ textarea {
 
 	.aulaexperimental {
 		font-size: 0.5rem;
+	}
+
+	/*ENSINO*/
+	.card-white {
+		width: 150px;
+		height: 230px;
+	}
+
+	.card-white img {
+		width: 135px;
+		height: 135px;
+		margin-left: -12.5px;
+		margin-top: -5px;
 	}
 
 	/*INTERCÂMBIO*/
@@ -1031,23 +1044,10 @@ textarea {
 		top: 20%;
 	}
 
-	/*ENSINO*/
-	.card-white {
-		width: 150px;
-		height: 230px;
-	}
-
-	.card-white img {
-		width: 135px;
-		height: 135px;
-		margin-left: -12.5px;
-		margin-top: -5px;
-	}
-
+	/*FOOTER*/
 	#mapa {
 		height: 250px;
 		width: 250px;
-		margin-left: 30px;
 	}
 
 }
