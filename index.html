@@ -28,7 +28,9 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'G-44ET0DMNC3');
-</script>
+	</script>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
 	<!-- MENU -->
@@ -818,7 +820,7 @@
 				<p>Venha nos conhecer: Rua Falcão Padilha, nº 252 - Bangu / Rio de Janeiro</p>
 				<p>Horário de atendimento: de segunda a sexta, 8h às 19h</p>
 				<p>Sábados, 8h às 15h</p>
-				<div id="mapa"></div>
+				<div id='mapa'></div>
 			</div>
 		</div>
 	</footer>
@@ -845,22 +847,19 @@
 
 	<!-- JS MAPA -->
 	<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYXVndXN0b3ByZXN0byIsImEiOiJjazkxdDcwb3AwMWFrM2VwYWZpMm5rbzNsIn0.Mp_fwIVR0JfzIDbUtxLTFg';
+	var map = new mapboxgl.Map({
+		container: 'mapa', // container ID
+		style: 'mapbox://styles/augustopresto/ckmz9646v2l7417qo3fiv9e3c', // style URL
+		center: [-43.46223550933459, -22.872935136015485], // starting position [lng, lat]
+		zoom: 15 // starting zoom
+	});
+	var marker = new mapboxgl.Marker({
+			color: '#C2312C'
+		}).setLngLat([-43.46223550933459, -22.872935136015485])
+		.addTo(map);
+	</script>
 
-      function inicializar() {
-        var coordenadas = {lat: -22.872935136015485, lng: -43.46223550933459  };
-
-        var mapa = new google.maps.Map(document.getElementById('mapa'), {
-          zoom: 15,
-          center: coordenadas 
-        });
-
-        var marker = new google.maps.Marker({
-          position: coordenadas,
-          map: mapa,
-          title: 'Meu marcador'
-        });
-      }
-    </script>
     <!-- JS ENVIAR MSG -->
 	<script>
 		function send() {
